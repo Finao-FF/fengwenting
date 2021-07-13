@@ -52,6 +52,3 @@ print("input获取的内容：",int(a)+int(b))
 # a="asdfghjkl dfghjkldfghj " #也可以是单引号
 # print(len(a))
 #通过代码获得两段内容，并且计算他们的长度和
-a=input()
-b=input()
-print(len(a+b))
