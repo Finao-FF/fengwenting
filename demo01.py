@@ -149,9 +149,14 @@ del a[0]
 获取用户输入的个人信息，并且存储到字典中。
 个人信息包括：name，age，sex
 '''
-a=input()
-b=input()
-c=input()
+a=input("请输入你的姓名：")
+b=input("请输入你的年龄：")
+c=input("请输入你的性别：")
+#d={}
+#d.update(name=a,age=b,sex=c)
+#d["name"]=a
+#d["age"]=b
+#d["sex"]=c
 d={"name":a,"age":b,"sex":c}
 print(d)
 
